@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(17, 154, 151);
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main {
+    margin-top: -10px;
+    background-color: hsl(240, 60%, 50%);
+    display: flex;
+}
+nav {
+    display: flex;
+    width: 96%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2 {
+    color: blanchedalmond;
+    font-size: xx-large;
+    font-family: Verdana;
+    width: auto;
+    margin: 20px 10px 10px 10px;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px 10px 10px;
+}
+nav ul li a {
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 20px 10px;
+}
+nav ul li a:hover {
+    color: hsl(0, 330%, 70%);
+}
+nav h2:hover {
+    color: hsl(0, 100%, 100%);
+    cursor: pointer;
+}
+.center {
+    text-align: center;
+    margin-top: 15%;
+
+}
+button {
+    border-style: 2px solid black;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: hsl(120, 60%, 70%);
+    font-family:Cambria;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-bottom: 8px solid black;
+}
+button:hover {
+    background-color: blue;
+    color: aliceblue;
+}

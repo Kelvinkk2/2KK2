@@ -1,0 +1,24 @@
+body {
+    background-image: url("images/despaired-g92cc69e09_1920.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New';
+}
+body {
+    background-image: url("../Images/experience.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+    font-size: larger;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav ul li a:hover {
+     border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 7px;
+}
+nav h1 {
+    margin: 20px 30px 10px 40px;
+    font-size: 50px;
+    color: white;
+}
+.center {
+    color: aliceblue;
+    margin: 100px 10px 20px 700px;
+}
+.center h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.sentence {
+    margin: 20px 10px 10px 70px;
+    font-size: x-large;
+}
+details {
+    margin: 10px 10px 10px 80px;
+    list-style: none;
+}
+details ul {
+    list-style: none;
+}
+.python {
+    font-size: large;
+
+}

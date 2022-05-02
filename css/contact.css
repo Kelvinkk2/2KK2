@@ -1,0 +1,87 @@
+* {
+    color: rgb(197, 174, 117);
+    font-family: serif;
+}
+
+body {
+    text-align: center;
+    background-color:rgb(23, 22, 22);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    padding: 5px 5px 5px 5px;
+    width: 1290px;
+    height: 630px;
+    background-color: rgb(23, 22, 22);
+    border-top: thick solid rgb(197, 174, 117);
+    border-bottom: thick solid rgb(197, 174, 117);
+    border-right: thick solid rgb(197, 174, 117);
+    border-left: thick solid rgb(197, 174, 117);
+}
+ul li section input{
+    padding: 10px;
+    margin-top: 5px;
+    border: thin double;
+    text-align: left;
+    background-color: rgb(23, 22, 22);
+}
+ul li section textarea {
+    padding: 10px;
+    border: thin solid;
+    background-color: rgb(23, 22, 22);
+    width: 360px;
+    height: 80px;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+.submit {
+    position: relative;
+    right: 144px;
+    border: thick double ;
+    padding: 10px;
+    width: 100px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.sec {
+    font-size: 17px;
+    text-align: left;
+}
+h1 {
+    font-size: 50px;
+}    
+nav li a{
+    text-decoration: none;
+    border: thin solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 10px;
+}
+.kmk {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+
+.kkk {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 110px;
+    right: 610px;
+}

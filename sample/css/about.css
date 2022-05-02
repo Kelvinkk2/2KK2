@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+body {
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    margin: 20px 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-right: 10px 10px;
+    margin-left: 15px 15px;
+    color: bisque;
+    text-decoration: dashed;
+}
+nav ul li a:hover {
+    font-size: larger;
+}
+nav h1 {
+    color: white;
+    font-size: 3vw;
+    margin: 20px 20px 20px 20px;
+}

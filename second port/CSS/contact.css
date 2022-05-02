@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+body {
+    background-image: url("../Images/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+    font-size: larger;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav ul li a:hover {
+     border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 7px;
+}
+nav h1 {
+    margin: 20px 30px 10px 40px;
+    font-size: 50px;
+    color: white;
+}
+.center {
+    background-color: transparent;
+    width: 700px;
+    margin: 20px 10px 10px 400px;
+    color: white;
+
+}
+form {
+    margin-top: 40px;
+}
+input {
+    background-color: white;
+    font-size: large;
+    border: 3px solid black;
+
+    
+    border-radius: 10px;
+}
+h5 span {
+    margin-left: 150px;
+}
+#email {
+    width: 458px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+textarea {
+    width: 458px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+button {
+    margin-left: 200px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 174, 255);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+body {
+    background-image: url("../Images/expe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+    font-size: larger;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav ul li a:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 7px;
+}
+nav h1 {
+    margin: 20px 30px 10px 40px;
+    font-size: 50px;
+    color: white;
+}
+.center {
+    color: white;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 700px;
+}
